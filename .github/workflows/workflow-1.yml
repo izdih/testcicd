@@ -30,7 +30,7 @@ jobs:
       - name: Build Image from Dockerfile (source code)
         run: docker build -t my_imagecicd .
 
-      - name: Log in to Docker Hub
+      - name: Log in Docker Hub
         uses: docker/login-action@v1
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
