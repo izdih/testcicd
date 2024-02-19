@@ -38,12 +38,12 @@ jobs:
 
 
       - name: Tag Image 
-        run: docker tag my_imagecicd izihargh/my_imagenewcicd:latest 
+        run: docker tag my_imagecicd izdihargh/my_imagenewcicd:latest 
 
       - name: Verify Build Image
         run: docker images
 
       - name: Push Image docker hub
-        run: docker push izihargh/my_imagenewcicd:latest
+        run: docker push izdihargh/my_imagenewcicd:latest 
 
 
