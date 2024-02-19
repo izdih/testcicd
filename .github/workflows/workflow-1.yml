@@ -43,7 +43,7 @@ jobs:
       - name: Verify Build Image
         run: docker images
 
-      - name: Push Image to docker hub
-        run: docker push izihargh/my_image_newcicd:latest
+      - name: Push Image docker hub
+        run: docker push izihargh/my_imagenewcicd:latest
 
 
