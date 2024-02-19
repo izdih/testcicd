@@ -38,7 +38,7 @@ jobs:
 
 
       - name: Tag Image 
-        run: docker tag my_imagecicd izihargh/my_image_newcicd:latest 
+        run: docker tag my_imagecicd izihargh/my_imagenewcicd:latest 
 
       - name: Verify Build Image
         run: docker images
